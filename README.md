@@ -34,7 +34,7 @@ Write a description of your app.
 
 
 ### Run the application on local server
-`streamlit run {app_name.py}`
+`streamlit run Hello.py`
 
 # About Lyzr
 Lyzr is a low-code agent framework that follows an **‘agentic’** way to build LLM apps, contrary to Langchain’s ‘functions and chains’ way and DSPy’s ‘programmatic’ way of building LLM apps. 
