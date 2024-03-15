@@ -7,6 +7,8 @@
 - `Hello.py` will be the entry point of your streamlit app, the main functionalities are written inside this script.
 - `utils.py` script consist all of the common functions, so the helping functions will be written inside this script.
 - Use the `lyzr-logo-cut.png` and `lyzr-logo.png` in your app.
+- Always create and activate virtual environment before installing dependecies.
+- Make sure that requirements.txt file updated before pushing the code to remote repo, for updating the file run `pip freeze > requirements.txt` command.
 
 Remove these above Instructions before pushing your code to remote repository
 
