@@ -4,7 +4,7 @@
 
 - Paste your API Key inside the `.streamlit/secrets.toml`.
 - Add `.streamlit/secrets.toml` to the `.gitingnore` file while starting and before pushing your code to remote repository, this practice will keep your OpenAI API Key secret.
-- `Hello.py` will be the entry point of your streamlit app, the main functionalities are written inside this script.
+- `app.py` will be the entry point of your streamlit app, the main functionalities are written inside this script.
 - `utils.py` script consist all of the common functions, so the helping functions will be written inside this script.
 - Use the `lyzr-logo-cut.png` and `lyzr-logo.png` in your app.
 - Always create and activate virtual environment before installing dependecies.
@@ -34,7 +34,7 @@ Write a description of your app.
 
 
 ### Run the application on local server
-`streamlit run Hello.py`
+`streamlit run app.py`
 
 # About Lyzr
 Lyzr is a low-code agent framework that follows an **‘agentic’** way to build LLM apps, contrary to Langchain’s ‘functions and chains’ way and DSPy’s ‘programmatic’ way of building LLM apps. 
