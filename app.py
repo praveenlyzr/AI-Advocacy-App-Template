@@ -9,6 +9,8 @@ temp_directory() #creates a temp directory for storing things
 sidebar_api(secrets=True) #remove variable to utilize sidebar input. currently uses secrects.
 style_app() #comment out if you dont have CSS file
 
+# change app titles and other lines in utils.py to whatever you like
+
 # write all definitions of functions in utils
 
 lyzr_demo_start(main=True) # Load and display the logo. change main = false if you dont want the main page text (will only show logo)
