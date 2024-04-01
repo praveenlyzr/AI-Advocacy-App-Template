@@ -1,6 +1,4 @@
-import os
 # import lyzr     
-from PIL import Image
 import streamlit as st
 from utils import *
 
