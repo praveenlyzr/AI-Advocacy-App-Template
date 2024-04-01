@@ -17,7 +17,7 @@ lyzr_demo_start(main=True) # Load and display the logo. change main = false if y
 
 # Start of the main container
 with st.container():
-    st.text_area("Codes go here", value=os.environ['OPENAI_API_KEY'])
+    st.text_area("Codes go here")
 
 lyzr_demo_end() # Footer or any additional information. use var [text] to display any aditional info
 
